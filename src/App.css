@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: #eeeab5;
+}
+
+ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 95%;
+  background: #2f5c3e;
+  margin-right: 140 px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li {
+  display: block;
+  flex: 0 1 auto;
+  list-style-type: none;
+  background: #fff241;
+  padding: 20px;
+}
+
+h1 {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color: brown;
+}
+
+.form {
+  text-align: center;
+  border-style: solid;
+  border-color: #2f5c3e;
+  border-width: 10px;
+}
+
+.about {
+  text-align: center;
+  border-style: solid;
+  border-color: #2f5c3e;
+  border-width: 10px;
+}
+
+h2 {
+  font-size: 20 px;
+  color: brown;
+}
+
+h4 {
+  color: #2f5c3e;
+}
+.home {
+  text-align: center;
+  border-style: solid;
+  border-color: #2f5c3e;
+  border-width: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
