@@ -19,7 +19,7 @@ class Form extends React.Component {
   render() {
     return (
       <div className="form">
-        <h1> Contact us</h1>
+        <h1>Contact us</h1>
         <Control
           displayInfo={(name, age, email) => this.setState({ name: name, age: age, email: email })}
         />
