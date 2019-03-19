@@ -13,7 +13,7 @@ class App extends Component {
           <h1>Melody's app</h1>
           <ul className="ul">
             <li>
-              <Link to="/Home" style={{ textDecoration: 'none' }}>
+              <Link to="/" style={{ textDecoration: 'none' }}>
                 Home
               </Link>
             </li>
@@ -29,7 +29,7 @@ class App extends Component {
             </li>
           </ul>
         </div>
-        <Route path="/Home" exact component={Home} />
+        <Route path="/" exact component={Home} />
         <Route path="/About-us" exact component={AboutUs} />
         <Route path="/Contact-us" exact component={Form} />
       </Router>
