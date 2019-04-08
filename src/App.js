@@ -10,20 +10,28 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <h1>Melody's app</h1>
           <ul className="ul">
             <li>
-              <Link to="/" style={{ textDecoration: 'none' }}>
+              <Link
+                to="/"
+                style={{ textDecoration: 'none', color: 'white', border: 'solid', padding: '15px' }}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/About-us" style={{ textDecoration: 'none' }}>
+              <Link
+                to="/About-us"
+                style={{ textDecoration: 'none', color: 'white', border: 'solid', padding: '15px' }}
+              >
                 About us
               </Link>
             </li>
             <li>
-              <Link to="/Contact-us" style={{ textDecoration: 'none' }}>
+              <Link
+                to="/Contact-us"
+                style={{ textDecoration: 'none', color: 'white', border: 'solid', padding: '15px' }}
+              >
                 Contact us
               </Link>
             </li>
